@@ -1,0 +1,316 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 36px;
+    line-height: 36px;
+    /* background-color: #000; */
+    font-family: Arial, Helvetica, sans-serif;
+    font: 13px;
+}
+li{
+    float: right;
+    
+
+}
+
+a{
+    display: block;
+    padding: 0 28px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, .active a{
+    background-color: #156ee2;
+
+}
+
+
+.page1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+display: flex;}
+
+.p1b1{
+    margin-top: 10%;
+    margin-left: 6%;
+    width: 50%;
+    height: 85%;
+    /* background-color: aqua; */
+}
+.p1b2{
+    margin-top: 10%;
+    margin-right: 6%;
+    width: 50%;
+    height: 85%;
+    /* background-color: brown; */
+}
+
+img{
+    height: 100%;
+    width: 90%;
+    padding: 20px 30px;
+    margin-left: 8%;
+}
+
+h1{
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    
+}
+
+p1{
+    font-size: 35px;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.page2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.p2b1{
+    margin-top: 8%;
+    margin-left: 6%;
+    width: 50%;
+    height: 85%;
+    /* background-color: blue; */
+}
+
+.p2b2{
+    margin-top: 8%;
+    width: 50%;
+    margin-right: 6%;
+    height: 85%;
+    /* background-color: chartreuse; */
+}
+
+img{
+    height: 100%;
+    width: 90%;
+    padding: 20px 30px;
+    margin-left: 2%;
+}
+
+h2{
+    font-size: 40px;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+p2{
+    font-size: 30px;
+    position: absolute;
+    left: 55%;
+    top: 33%;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.page3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.p3b1{
+    margin-top: 8%;
+    margin-left: 6%;
+    width: 50%;
+    height: 85%;
+    /* background-color: darkgoldenrod; */
+}
+
+.p3b2{
+    margin-top: 8%;
+    margin-right: 6%;
+    width: 50%;
+    height: 85%;
+    /* background-color: salmon; */
+}
+
+img{
+    height: 100%;
+    width: 90%;
+    padding: 20px 30px;
+    margin-left: 8%;
+}
+
+h3{
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    top: 23%; 
+}
+
+P3{
+    font-size: 20px;
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-family: 'Tilt Neon', cursive;
+}
+
+
+h4{
+    font-size: 40px;
+    position: absolute;
+    left: 43%;
+    top: 12%;
+}
+
+P4{
+    font-size: 50px;
+    position: absolute;
+    left: 34%;
+    top: 18%;
+    color: #1992;
+
+}
+
+h5{
+    font-size: 30px;
+    position: absolute;
+    left: 3%;
+    top: 1%;
+    color: red;
+}
+
+p5{
+  font-size: 15px;
+    position: absolute;
+    left: 3%;
+    top: 4.9%;
+    color: red;
+}
+
+.icon{
+    letter-spacing: 20px;
+    color: black;
+    margin-top: 1.3%;
+    position: absolute;
+    margin-left: 15% ;
+}
+
+.page4{
+    width: 100%;
+    height: 100%;
+
+position: relative;
+
+}
+
+#p4b1{
+    margin-top: 10%;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    position: relative;
+
+}
+#p4b1 h1{
+    padding-top: 2%;
+    padding-left: 5%;
+    font-size: 35px;
+    color: white;
+    top: 1%;
+
+}
+#p4b1 input {
+    position: absolute;
+left: 64%;
+top: 39%;
+font-size: 28px;
+background: transparent;
+
+
+}
+ #p4b1 button{
+
+position: absolute;
+left: 84%;
+top: 38%;
+
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px ;
+
+ }
+
+
+ #p4b2{
+    width: 100%;
+    height: 50%;
+    position: relative;
+    margin-top: -35%;
+    display: flex;
+ }
+
+
+ #p4b21{
+    height: 100%;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 100;
+    margin-right: 12%;
+    
+}
+
+
+ #p4b22{
+    height: 100%;
+    width: 25%;
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: -10%;
+
+ } 
+ #p4b23{
+    height: 100%;
+    width: 25%;
+    font-size: 22px;
+    font-weight: 100;
+    margin-left: 0%;
+ }
+ #p4b24{
+    height: 100%;
+    width: 25%;
+    font-size: 30px;
+    font-weight: 100;
+    margin-left: 10%;
+ }
+  #logo{
+    margin-top: 15%;
+    width: 50%;
+    height: 30%;
+
+   
+   
+  }
+
+    
+
+    
+
+
+
